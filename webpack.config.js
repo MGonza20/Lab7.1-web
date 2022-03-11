@@ -23,7 +23,7 @@ module.exports = {
   
   output: {
     filename: "[name].bundle.js",
-    path: path.resolve(__dirname, "bundle_con_babel"), 
+    path: path.resolve(__dirname, "bundle_sin_babel"), 
   },
   
   plugins: [
@@ -126,17 +126,17 @@ module.exports = {
             }
           }
         },
-        {
-          test: /\.m?js$/,
-          exclude: /(node_modules)/,
-          use: {
-            loader: 'babel-loader',
-            options: {
-              presets: ['@babel/preset-env'],
-              plugins: ['babel-plugin-hash-resolve'],
-            }
-          }
-        }
+        //{
+          //test: /\.m?js$/,
+          //exclude: /(node_modules)/,
+          //use: {
+            //loader: 'babel-loader',
+            //options: {
+              //presets: ['@babel/preset-env'],
+              //plugins: ['babel-plugin-hash-resolve'],
+            //}
+          //}
+        //}
     ],
   },
 };
