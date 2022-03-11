@@ -1,5 +1,5 @@
-import "#/main.scss";
-import "#/orderDivs.scss";
+import "../main.scss";
+import "../orderDivs.scss";
 
 import imgCall from "../images/IWoon.gif";
 
