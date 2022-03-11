@@ -1,0 +1,32 @@
+
+
+$margin: auto;
+$width: 50%;
+
+#divImg{
+    margin: $margin;
+    width: $width;
+}
+
+#divT{
+    margin: $margin;
+    width: $width;
+}
+
+#divText{
+    margin: $margin;
+    width: $width;
+}
+
+#divQ{
+    margin: $margin;
+    width: $width;    
+}
+
+#text{
+    text-align: justify;
+}
+
+body {
+    padding: 70px;
+}
