@@ -4,7 +4,13 @@ import "../orderDivs.scss";
 const {bar} = require("../bar.js");
 const {brElement} = require("../brElement.js");
 
+// asi se implementaria el plugin babel-plugin-hash-resolve
 
+//import "#/main.scss";
+//import "#/orderDivs.scss";
+
+//import {bar} from "#/bar.js";
+//import {brElement} from "#/brElement.js";
 
 
 
